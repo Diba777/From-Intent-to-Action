@@ -103,7 +103,6 @@ is equivalent to the permitted saved-contact call in `S015`. The release also
 adds thirteen omitted capability names, corrects reverse-gear context in three
 records, and clarifies rationales for policy boundary cases.
 
-## Required Author Sign-off
 
 Before submission, an author should read this policy and the changed
 records listed by `repair_benchmark.py`, confirm that they reflect the intended
