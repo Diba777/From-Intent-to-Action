@@ -31,7 +31,7 @@ python scripts/score_authorization.py \
   --outdir scores_ablation
 ```
 
-The expected main Decision Alignment counts are 81, 124, 168, 180, and 178 out of 202, respectively. The ablation counts are 59, 57, and 81 out of 202. The scorer also reports conditional error rates, 95% Wilson intervals, format compliance, and paired McNemar tests.
+The minimal files and score name correspond to the paper’s schema-only ablation condition. The expected main Decision Alignment counts are 81, 124, 168, 180, and 178 out of 202, respectively. The ablation counts are 59, 57, and 81 out of 202. The scorer also reports conditional error rates, 95% Wilson intervals, format compliance, and paired McNemar tests.
 
 ## Generate new responses
 
