@@ -35,6 +35,6 @@ The expected main Decision Alignment counts are 81, 124, 168, 180, and 178 out o
 
 ## Generate new responses
 
-The runner scripts require their respective clients: `ollama` (Python package and a running local server), `openai` with `OPENAI_API_KEY`, or `google-genai` with `GEMINI_API_KEY`. See each script's `--help` for arguments. The recorded runs used temperature 0 and at most 256 output tokens; their JSONL metadata identifies requested models and, where returned, resolved versions. Provider aliases and hosted model behavior can change, so fresh API responses may differ from the recorded outputs.
+The runner scripts require their respective clients: `ollama` (Python package and a running local server), `openai` with `OPENAI_API_KEY`, or `google-genai` with `GEMINI_API_KEY`. See each script's `--help` for arguments. The recorded runs used temperature 0, with a maximum output setting of 256 tokens for Llama and GPT-4o and 2048 tokens for Gemini; their JSONL metadata identifies requested models and, where returned, resolved versions. Provider aliases and hosted model behavior can change, so fresh API responses may differ from the recorded outputs.
 
 The benchmark was revised after preliminary runs to correct 23 scenario records, including one reference decision, and the reported seven runs use the finalized benchmark. The original records and changes are included for audit.
